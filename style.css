@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.hero-text {
+    font-size: 80px;
+}
+.main-container {
+    min-height: calc(100vh - 80px); /* Adjust 80px to match your header height */
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+.learn-more .text-box {
+    width: 100%;
+}
+.helping{
+    padding: 50px 0px;
+    background-color: #f7f7f7;
+}
+.margin {
+    margin-top: -87px;
+}
+.social-icon {
+    font-size: 35px;
+}
+.credit-icon {
+    font-size: 35px;
+}
+@media screen and (max-width: 1199px) {
+    .hero-text {
+        font-size: 60px;
+        margin-top: 56px;
+    }
+    .learn-more .text-box {
+        width: 100%;
+    }
+    .learn-more.textbox h2 {
+        width: 200%;
+       font-size: 35px;
+    }
+    .market-sec .justify-content-center{
+            justify-content: flex-start;
+    }
+    .navbar-nav {
+        margin-right: 60px;
+    }
+    footer h3{
+        font-size: 19px;
+    }
+    footer p{
+        font-size: 13px;
+    }
+    .helping-sec .fa-solid{
+        font-size: 35px;
+    }
+    .market-sec .card {
+        margin-left: 3rem !important;
+    }
+    footer .social-icon{
+        font-size: 30px;
+    }
+    footer .credit-icon{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .hero-text {
+        font-size: 48px;
+    }
+    footer .social-icon{
+        font-size: 25px;
+    }
+    footer .credit-icon{
+        font-size: 25px;
+    }
+    footer h3{
+        font-size: 15px;
+    }
+    footer p{
+        font-size: 13px;
+    }
+    .audiance-sec .card {
+        width: 15rem !important;
+    }
+}
+@media screen and (max-width: 767px) {
+    .hero-text {
+        font-size: 35px;
+    }
+    .market-sec p {
+        font-size: 20px;
+    }
+    footer h3{
+        font-size: 18px;
+    }
+    footer p{
+        font-size: 12px;
+    }
+    .display {
+        display: none;
+    }
+}
+@media screen and (max-width: 575px) {
+    .hero-text {
+        font-size: 20px;
+    }
+    .market-sec p {
+        font-size: 16px;
+    }
+    footer h3{
+        font-size: 12px;
+    }
+    footer p{
+        font-size: 12px;
+    }
+}
